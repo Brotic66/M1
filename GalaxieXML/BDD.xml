@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="geolocalisation.xsl" type="text/xsl" ?>
+
+<geolocalisation>
+	<Secteur idSecteur="1">
+		<Coord>
+			<Point x="0" y="0" z="0" />
+			<Point x="0" y="500" z="0" />
+			<Point x="250" y="500" z="0" />
+			<Point x="250" y="0" z="0" />
+			<Point x="0" y="0" z="0" />
+		</Coord>
+
+		<Informations>
+			<nom nomCourant="Secteur 1" />
+		</Informations>
+
+
+		<Salle idSalle="1">
+			<Coord>
+				<Point x="0" y="0" z="0" />
+				<Point x="250" y="0" z="0" />
+				<Point x="250" y="250" z="0" />
+				<Point x="0" y="250" z="0" />
+				<Point x="0" y="0" z="0" />
+			</Coord>
+
+			<Informations>
+				<nom nomCourant="Fantastique et Sciences Fiction" />
+			</Informations>
+
+
+			<Livre x="20" y="5" z="10" angle="0" idLivre="1" auteur="J.K Rowling" type="Roman">
+				<titre nomCourant="Harry Potter, tome 1: Harry Potter à l'ecole des sorciers" />
+				<isbnLivre isbn="1FHP1" />
+				<editeurLivre edit="Gallimard" />
+				<dateLivre date="2007" />
+			</Livre>
+
+			<Livre x="60" y="5" z="10" angle="0" idLivre="2" auteur="J.K Rowling" type="Roman">
+				<titre nomCourant="Harry Potter, tome 7: Harry Potter et les reliques de la mort" />
+				<isbnLivre isbn="1FHP7" />
+				<editeurLivre edit="Gallimard" />
+				<dateLivre date="2011" />
+			</Livre>
+
+			<Livre x="100" y="5" z="10" angle="0" idLivre="3" auteur="Stephenie Meyer" type="Roman">
+				<titre nomCourant="Les âmes vagabondes" />
+				<isbnLivre isbn="1FLAV" />
+				<editeurLivre edit="JC Lattès" />
+				<dateLivre date="2009" />
+			</Livre>
+
+			<Livre x="140" y="5" z="10" angle="0" idLivre="4" auteur="James Frey" type="Roman">
+				<titre nomCourant="End Game: L'appel" />
+				<isbnLivre isbn="1FEGA" />
+				<editeurLivre edit="Gallimard" />
+				<dateLivre date="2014" />
+			</Livre>
+
+			<Livre x="180" y="5" z="10" angle="0" idLivre="5" auteur="Stephen King" type="Roman">
+				<titre nomCourant="Dôme : Roman 1" />
+				<isbnLivre isbn="1FDOME" />
+				<editeurLivre edit="Albin Michel" />
+				<dateLivre date="2011" />
+			</Livre>
+
+			<Livre x="220" y="5" z="10" angle="0" idLivre="6" auteur="Guillermo Del Toro" type="Roman">
+				<titre nomCourant="La lignée" />
+				<isbnLivre isbn="1FLIGN" />
+				<editeurLivre edit="Presse de la cité" />
+				<dateLivre date="2009" />
+			</Livre>
+
+			<Livre x="245" y="20" z="10" angle="90" idLivre="7" auteur="Maxime Chatam" type="Roman">
+				<titre nomCourant="Autre monde : Entropia" />
+				<isbnLivre isbn="1FAME" />
+				<editeurLivre edit="Albin Michel" />
+				<dateLivre date="2011" />
+			</Livre>
+
+			<Livre x="245" y="60" z="10" angle="90" idLivre="8" auteur="Maxime Chatam" type="Roman">
+				<titre nomCourant="Autre monde : Malronce" />
+				<isbnLivre isbn="1FAMM" />
+				<editeurLivre edit="Albin Michel" />
+				<dateLivre date="2011" />
+			</Livre>
+
+			<Livre x="245" y="100" z="10" angle="90" idLivre="9" auteur="Maxime Chatam" type="Roman">
+				<titre nomCourant="Autre Monde : Neverland" />
+				<isbnLivre isbn="1FAMN" />
+				<editeurLivre edit="Albin Michel" />
+				<dateLivre date="2013" />
+			</Livre>
+
+			<Livre x="245" y="220" z="10" angle="90" idLivre="10" auteur="Christopher Paolini" type="Roman">
+				<titre nomCourant="Eragon : Brisingr" />
+				<isbnLivre isbn="1FEBR" />
+				<editeurLivre edit="Corgi" />
+				<dateLivre date="2009" />
+			</Livre>
+
+			<Livre x="245" y="180" z="10" angle="90" idLivre="11" auteur="Anne Robillard" type="Roman">
+				<titre nomCourant="Les Chevaliers d'Emeraude : L'enlevement" />
+				<isbnLivre isbn="1FLCE" />
+				<editeurLivre edit="Michel Lafon" />
+				<dateLivre date="2014" />
+			</Livre>
+
+
+		</Salle>
+
+
+		<Salle idSalle="2">
+			<Coord>
+				<Point x="0" y="250" z="0" />
+				<Point x="250" y="250" z="0" />
+				<Point x="250" y="500" z="0" />
+				<Point x="0" y="500" z="0" />
+				<Point x="0" y="250" z="0" />
+			</Coord>
+
+			<Informations>
+				<nom nomCourant="Thriller" />
+			</Informations>
+
+
+			<Livre  x="20" y="255" z="10" angle="0" idLivre="12" auteur="Maxime Chatam" type="Roman">
+				<titre nomCourant="La Conjuraiton Primitive" />
+				<isbnLivre isbn="1TLCJ" />
+				<editeurLivre edit="Albin Michel" />
+				<dateLivre date="2013" />
+			</Livre>
+
+			<Livre  x="60" y="255" z="10" angle="0" idLivre="13" auteur="Sophie Hannha" type="Roman">
+				<titre nomCourant="Meurtre en Majuscule " />
+				<isbnLivre isbn="1TMEM" />
+				<editeurLivre edit="Le Masque " />
+				<dateLivre date="2014" />
+			</Livre>
+
+			<Livre  x="100" y="255" z="10" angle="0" idLivre="14" auteur="Franck Thilliez" type="Roman">
+				<titre nomCourant="Puzzle " />
+				<isbnLivre isbn="1TPZL" />
+				<editeurLivre edit="Pocket" />
+				<dateLivre date="2014" />
+			</Livre>
+
+			<Livre  x="220" y="275" z="10" angle="0" idLivre="15" auteur="Michel Peyramaure" type="Roman">
+				<titre nomCourant="L'Auberge Rouge" />
+				<isbnLivre isbn="1TLAR" />
+				<editeurLivre edit="France Loisir" />
+				<dateLivre date="2007" />
+			</Livre>
+
+			<Livre  x="245" y="320" z="10" angle="90" idLivre="16" auteur="Maxime Chatam" type="Roman">
+				<titre nomCourant="Que ta volonté soit faite" />
+				<isbnLivre isbn="1TQTSF" />
+				<editeurLivre edit="Albin Michel" />
+				<dateLivre date="2015" />
+			</Livre>
+
+
+		</Salle>
+	</Secteur>
+
+	<Secteur idSecteur="2">
+		<Coord>
+			<Point x="250" y="0" z="0" />
+			<Point x="500" y="0" z="0" />
+			<Point x="500" y="500" z="0" />
+			<Point x="250" y="500" z="0" />
+			<Point x="250" y="0" z="0" />
+		</Coord>
+
+		<Informations>
+			<nom nomCourant="Secteur 2" />
+		</Informations>
+
+
+		<Salle idSalle="3">
+			<Coord>
+				<Point x="250" y="0" z="0" />
+				<Point x="500" y="0" z="0" />
+				<Point x="500" y="250" z="0" />
+				<Point x="250" y="250" z="0" />
+				<Point x="250" y="0" z="0" />
+			</Coord>
+
+			<Informations>
+				<nom nomCourant="Jeunesse" />
+			</Informations>
+
+
+			<Livre  x="325" y="75" z="10" angle="90" idLivre="17" auteur="Masashi Kishimoto" type="Manga">
+				<titre nomCourant="Naruto, Tome 67" />
+				<isbnLivre isbn="2JNT67" />
+				<editeurLivre edit="Kana" />
+				<dateLivre date="2015" />
+			</Livre>
+
+			<Livre  x="425" y="75" z="10" angle="90" idLivre="18" auteur="Taito Kubo" type="Manga">
+				<titre nomCourant="Bleach, Tome 63" />
+				<isbnLivre isbn="2JBT63" />
+				<editeurLivre edit="Glenat" />
+				<dateLivre date="2015" />
+			</Livre>
+
+			<Livre  x="325" y="175" z="10" angle="90" idLivre="19" auteur="Eiichiro Oda" type="Manga">
+				<titre nomCourant="One Piece, Tome 74" />
+				<isbnLivre isbn="2JOP74" />
+				<editeurLivre edit="Glenat" />
+				<dateLivre date="2015" />
+			</Livre>
+
+			<Livre  x="425" y="175" z="10" angle="90" idLivre="20" auteur="Hélène Bruller" type="BD">
+				<titre nomCourant="Titeuf, Le guide du zizi sexuel" />
+				<isbnLivre isbn="2JTLGZS" />
+				<editeurLivre edit="Glenat" />
+				<dateLivre date="2001" />
+			</Livre>
+
+			<Livre  x="428" y="175" z="10" angle="90" idLivre="21" auteur="Erroc" type="BD">
+				<titre nomCourant="Les profs, Virus au bahut" />
+				<isbnLivre isbn="2JLPVAB" />
+				<editeurLivre edit="Bamboo Eds" />
+				<dateLivre date="2010" />
+			</Livre>
+
+			<Livre  x="428" y="200" z="10" angle="90" idLivre="22" auteur="Andre Juillard" type="BD">
+				<titre nomCourant="Blake et Mortimer, Le serment des 5 lords" />
+				<isbnLivre isbn="2JBML5L" />
+				<editeurLivre edit="Dargaud" />
+				<dateLivre date="2012" />
+			</Livre>
+
+		</Salle>
+
+		<Salle idSalle="4">
+			<Coord>
+				<Point x="250" y="250" z="0" />
+				<Point x="500" y="250" z="0" />
+				<Point x="500" y="500" z="0" />
+				<Point x="250" y="500" z="0" />
+				<Point x="250" y="250" z="0" />
+			</Coord>
+
+			<Informations>
+				<nom nomCourant="Poésie" />
+			</Informations>
+
+
+			<Livre  x="300" y="100" z="10" angle="90" idLivre="23" auteur="Alfred de Musset" type="Recueil de poésie">
+				<titre nomCourant="Poésies nouvelles" />
+				<isbnLivre isbn="2PPNVL" />
+				<editeurLivre edit="Poesie française" />
+				<dateLivre date="1850" />
+			</Livre>
+
+			<Livre  x="335" y="145" z="10" angle="90" idLivre="24" auteur="Paul Verlaine" type="Recueil de poésie">
+				<titre nomCourant="Les Contemplations" />
+				<isbnLivre isbn="2PLCO"/>
+				<editeurLivre edit="Poesie française" />
+				<dateLivre date="1856" />
+			</Livre>
+
+			<Livre  x="375" y="180" z="10" angle="90" idLivre="25" auteur="Victor Hugo" type="Recueil de poésie">
+				<titre nomCourant="Chansons pour elle" />
+				<isbnLivre isbn="2PCPE" />
+				<editeurLivre edit="Poesie française" />
+				<dateLivre date="1891" />
+			</Livre>
+
+			<Livre  x="410" y="220" z="10" angle="90" idLivre="26" auteur="Guillaume Apollinaire" type="Recueil de poésie">
+				<titre nomCourant="Alcools" />
+				<isbnLivre isbn="2PALC" />
+				<editeurLivre edit="Poesie française" />
+				<dateLivre date="1913" />
+			</Livre>
+
+		</Salle>
+
+
+
+	</Secteur>
+
+
+	<typeLivres>
+		<typeL type="Roman" />
+		<typeL type="BD" />
+		<typeL type="Manga" />
+		<typeL type="Receuil de poésie" />
+	</typeLivres>
+
+	<auteurs>
+		<auteur nom="J.K Rowling" />
+		<auteur nom="Stephenie Meyer"/>
+		<auteur nom="James Frey" />
+		<auteur nom="Stephen King" />
+		<auteur nom="Maxime Chatam" />
+		<auteur nom="Guillermo Del Toro" />
+		<auteur nom="Christopher Paolini" />
+		<auteur nom="Anne Robillard" />
+		<auteur nom="Sophie Hannha" />
+		<auteur nom="Franck Thilliez" />
+		<auteur nom="Michel Peyramaure"/>
+		<auteur nom="Masashi Kishimoto" />
+		<auteur nom="Hélène Bruller" />
+		<auteur nom="Andre Juillard" />
+		<auteur nom="Erroc"/>
+		<auteur nom="Eiichiro Oda" />
+		<auteur nom="Taito Kubo"  />
+		<auteur nom="Andre Juillard" />
+		<auteur nom="Alfred de Musset"/>
+		<auteur nom="Paul Verlaine"/>
+		<auteur nom="Victor Hugo" />
+		<auteur nom="Guillaume Apollinaire"  />
+	</auteurs>
+</geolocalisation>
