@@ -1,0 +1,38 @@
+#include <string.h>
+#include "ThreadUpController.h"
+
+ThreadUpController::ThreadUpController(pthread_mutex_t *v, Client *c)
+{
+    this->verrou = v;
+    this->client = c;
+}
+
+Client              *ThreadUpController::getClient()
+{
+    return this->client;
+}
+
+pthread_mutex_t     *ThreadUpController::getVerrou()
+{
+    return this->verrou;
+}
+
+void                traitement()
+{
+    Message m;
+    while (!this->client->supprimer())
+    {
+
+        recv(this->client->getSockClient(), &m, 516, 0);
+
+        if (m.option == 'g')
+            this->traiterGet(m);
+        else if (m.option == 'p')
+            this->traiterPut(m);
+        else if (m.option == 'l')
+            this->traiterLs();
+        else
+            this->traiterDeco();
+
+    }
+}
